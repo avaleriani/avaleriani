@@ -49,19 +49,22 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
-          plugin_music: yes
-          plugin_music_limit: 4
+          plugin_music_mode: top
+          plugin_music_provider: spotify
+          plugin_music_token: ${{ secrets.METRICS_SPOTIFY_TOKEN }}
           plugin_music_time_range: short
           plugin_music_top_type: tracks
-          plugin_music_user: .user.login
           plugin_pagespeed: yes
           plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: .user.website
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_token: ${{ secrets.METRICS_PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://agustinvaleriani.com
           plugin_repositories: 600
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
           plugin_repositories_forks: yes
           plugin_stackoverflow: yes
+          plugin_stackoverflow_user: ${{ secrets.METRICS_STACKOVERFLOW_USERID }}
           plugin_stackoverflow_limit: 2
           plugin_stackoverflow_lines: 4
           plugin_stackoverflow_lines_snippet: 2
@@ -75,6 +78,8 @@ jobs:
           plugin_traffic: yes
           plugin_tweets: yes
           plugin_tweets_limit: 2
-          plugin_tweets_user: .user.twitter
-          repositories: 600
+          plugin_tweets_token: ${{ secrets.METRICS_TWITTER_TOKEN }}
+          plugin_tweets_attachments: yes
+          plugin_tweets_user: aguvaleriani
+          repositories: 800
           repositories_forks: yes
