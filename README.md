@@ -1,6 +1,8 @@
 <picture>
-  <img src="/github-metrics.svg" alt="Metrics">
+  <img src="/github-metrics.svg" alt="Metrics" width="100%">
 </picture>
 
 
-![Visitor Count](https://profile-counter.glitch.me/avaleriani/count.svg)
+<picture>
+  <img src="https://profile-counter.glitch.me/avaleriani/count.svg" alt="counter">
+</picture>
