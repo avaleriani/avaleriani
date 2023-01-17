@@ -61,7 +61,6 @@ jobs:
           plugin_pagespeed_url: https://agustinvaleriani.com
           plugin_repositories: 600
           plugin_repositories_affiliations: owner
-          plugin_repositories_batch: 100
           plugin_repositories_forks: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: ${{ secrets.METRICS_STACKOVERFLOW_USERID }}
