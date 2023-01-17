@@ -1,0 +1,24 @@
+{
+  "name": "avaleriani",
+  "version": "1.0.0",
+  "description": "Profile card",
+  "main": "app/cli.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avaleriani/avaleriani.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avaleriani/avaleriani/issues"
+  },
+  "homepage": "https://github.com/avaleriani/avaleriani#readme",
+  "dependencies": {
+    "prettyjson": "^1.2.5"
+  }
+}
