@@ -39,15 +39,14 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 20
+          plugin_languages_analysis_timeout: 40
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 10
+          plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 60
-          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 360
+          plugin_languages_recent_load: 500
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_music_mode: top
           plugin_music_provider: spotify
@@ -59,22 +58,19 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.METRICS_PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://agustinvaleriani.com
-          plugin_repositories: 600
-          plugin_repositories_affiliations: owner
-          plugin_repositories_forks: no
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: ${{ secrets.METRICS_STACKOVERFLOW_USERID }}
           plugin_stackoverflow_limit: 2
-          plugin_stackoverflow_lines: 4
+          plugin_stackoverflow_lines: 2
           plugin_stackoverflow_lines_snippet: 2
+          plugin_stackoverflow_sections: answers-top
           plugin_stars: yes
-          plugin_stars_limit: 8
-          plugin_topics: no
+          plugin_stars_limit: 3
           plugin_traffic: yes
-          plugin_tweets: no
-          plugin_tweets_limit: 2
-          plugin_tweets_token: ${{ secrets.METRICS_TWITTER_TOKEN }}
-          plugin_tweets_attachments: yes
-          plugin_tweets_user: aguvaleriani
           repositories: 800
           repositories_forks: yes
+          plugin_habits: yes
+          plugin_habits_from: 800
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+
