@@ -10,7 +10,7 @@
 ### Business card
 
 ```shell
-npx avaleriani
+npx avaleriani -y
 ```
 ### Visitor count
   <img src="https://profile-counter.glitch.me/avaleriani/count.svg" alt="counter">
