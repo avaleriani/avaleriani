@@ -5,7 +5,7 @@
 <picture>
   <img src="/github-metrics.svg" alt="Metrics" width="100%">
 </picture>
-<picture>
+
 
 ### Business card
 
@@ -13,6 +13,7 @@
 npx avaleriani -y
 ```
 ### Visitor count
-  <img src="https://profile-counter.glitch.me/avaleriani/count.svg" alt="counter">
+<picture>
+  <img src="https://komarev.com/ghpvc/?username=avaleriani&color=brightgreen&style=flat-square" />
 </picture>
 </p>
