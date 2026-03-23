@@ -29,10 +29,10 @@ jobs:
           config_octicon: yes
           config_timezone: Europe/Berlin
           config_twemoji: yes
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: D
+          # plugin_achievements: yes
+          # plugin_achievements_display: compact
+          # plugin_achievements_secrets: yes
+          # plugin_achievements_threshold: D
           plugin_discussions: yes
           plugin_discussions_categories: yes
           plugin_gists: yes
@@ -65,12 +65,12 @@ jobs:
           plugin_stackoverflow_lines_snippet: 2
           plugin_stackoverflow_sections: answers-top
           plugin_stars: yes
-          plugin_stars_limit: 3
-          plugin_traffic: yes
+          plugin_stars_limit: 6
+          # plugin_traffic: yes
           repositories: 800
           repositories_forks: yes
-          plugin_habits: yes
-          plugin_habits_from: 800
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
+          # plugin_habits: yes
+          # plugin_habits_from: 800
+          # plugin_habits_days: 30
+          # plugin_habits_facts: yes
 
